@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Замени на свой токен бота
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'ВАШ_ТОКЕН_СЮДА')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8479399139:AAF_USujPGvLwXmBBn5ntrGS3Np0Gga99eE')
 
 @app.route('/getUpdates')
 def get_updates():
